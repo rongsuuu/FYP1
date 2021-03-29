@@ -1,0 +1,88 @@
+﻿ID,Name,Lateral limit id,Lateral limits information,Upper limit,Lower limit,class of airspace,Unit providing service,Remarks
+1,SINGAPORE FIR,1,"070000N 1030000E 070000N 1080000E 103000N 1140000E 082500N 1163000E 021500N 1083000E 010000N 1083000E 010000N 1085400E, thence south along the coastline of Borneo to 001500N 1090000E to Equator 1090000E Equator 1080000E 005000S 1060000E Equator 1051000E Equator 1044600E, thence around the arc of a circle radius 100NM centred on Singapore Island to 013900N 1021000E 011300N 1033000E 011700N 1033600E, thence east along the international boundary of Singapore/Peninsular Malaysia, thence along 012000N to 012000N 1042000E 023600N 1044500E 034000N 1034000E 045000N 1034400E 064500N 1024000E 070000N 1030000E.",UNL,GND/MSL,,SINGAPORE ACC,"The responsibility for providing air traffic services to flights within the following portions of the Singapore FIR lying between Kuala Lumpur and Kota Kinabalu Flight Information Regions, shall be vested in the Kuala Lumpur ACC.
+
+The airspace bounded by a line from 023600N 1044500E to 020000N 1070000E and thereafter along 020000N in the Singapore and Kota Kinabalu FIR boundary, thence along this boundary to 060000N 1132000E thence along 060000N to the Singapore and Kuala Lumpur FIR boundary thence along the boundary to 023600N 1044500E and from surface level to FL150 west of longitude 105E and, from surface level to FL200 east of longitude 105E.
+(Ref ANP-ASIA/PAC, Rec 7/4)
+
+SEA 1, SEA 2, SEA 3: SSB Suppressed Carriers."
+2,SECTOR 1,2,"That airspace contained within coordinates 011300N 1033000E 012203N 1030209E thence along an arc radius 50 DME SJ to 014529N 1031305E 014225N 1031728E, thence along the Johor TMA western boundary to 013022N 1033437E 012600N 1034055E, thence along the Peninsular Malaysia and Singapore international boundary to 011700N 1033600E 011300N 1033000E. The airspace herein is designated as follows:
+
+a. AREA B(SJ DVOR/DME - 35 DME SJ)
+- 3 000ft to FL245
+b. AREA D (35 DME SJ - 45 DME SJ)
+- 5 500ft to FL245
+c. AREA F (45 DME SJ - 50 DME SJ)
+- 9 500ft to FL245",,,,SINGAPORE ACC,"Controlling Authority: Johor APP for airspaces below Sectors 1 and 2, Airway W401 and south of VMR DVOR.
+
+Note:
+In the event an aircraft in the areas is forced to make an emergency descent which will penetrate Malaysian airspace, the pilot shall advise Singapore ATC immediately."
+3,SECTOR 2,3,"That airspace contained within coordinates
+013206N 1035031E 022205N 1034724E 025234N 1033340E 025432N 1034341E 033822N 1034139E 023600N 1044500E 012000N 1042000E 012000N 1040528E
+thence along the Peninsular Malaysia and Singapore international boundary to 012600N 1034055E to 013022N 1033437E 013130N 1034236E to 013206N 1035031E. The airspace herein is designated as follows:
+
+AREA A (PU DVOR/DME - 30 DME PU excluding the northern portion of Changi CTR) - 2 000FT to FL245
+AREA C (30 DME PU - 61 DME PU)
+- 5 500FT to FL300
+AREA E (61 DME PU - 90 DME PU)
+- FL120 to FL360
+AREA H (from 025432N 1034341E thence along the 90 DME PU arc to the FIR boundary (024712N 1043337E) thence to 033822N 1034139E, 025432N 1034341E) - FL145 to FL360",,,,SINGAPORE ACC,"Controlling Authority: Johor APP for airspaces below Sectors 1 and 2, Airway W401 and south of VMR DVOR.
+
+Note:
+In the event an aircraft in the areas is forced to make an emergency descent which will penetrate Malaysian airspace, the pilot shall advise Singapore ATC immediately."
+4,ATS ROUTES W401 and G579,4,"a. W401 [Airspace between KK and PU radial 324 from 2,000ft to FL245 and PU radial 324 to PIMOK (excluding WMP228) from 3,000ft to FL245].
+b. G579 from 2000ft to FL460.",,,,SINGAPORE ACC,"Controlling Authority: Johor APP for airspaces below Sectors 1 and 2, Airway W401 and south of VMR DVOR.
+
+Note:
+In the event an aircraft in the areas is forced to make an emergency descent which will penetrate Malaysian airspace, the pilot shall advise Singapore ATC immediately."
+5,SINGAPORE /JOHOR AIRSPACE COMPLEX,5,All controlled airspace within,*FL250,2 000ft ALT,,SINGAPORE ACC,"*Upper limit FL450 from HOSBA [34 DME SJ R-079 (24 DME VTK R-103)]
+
+Lower limit varies from 2 000ft to 3 500ft ALT."
+6,"ALL AIRWAYS WITHIN THE SINGAPORE FIR, KUALA LUMPUR FIR AND ITS TRANSFER AREAS AND KOTA KINABALU FIR",6,(see subsection ENR 3.1),,,,SINGAPORE ACC,"Airspaces within the Kuala Lumpur FIR under the control of Singapore ACC are depicted in diagrams in AIP pages:
+ENR 2.1-11 for AWY A464
+ENR 2.1-13 for AWY B469"
+7,OCEANIC CONTROL AREA WITHIN SINGAPORE FIR (CTA),7,011800N 1035330E 011138N 1040740E 011510N 1042610E 011525N 1042950E 010235N 1043405E 002500N 1074200E Equator 1083600E to Equator 1080000E to 005000S 1060000E and thence along the Singapore/Jakarta FIR boundary to intersect the western boundary of G579 drawn on a 7.5° deg tolerance from SJ DVOR/DME,FL460,6 000ft ALT,,SINGAPORE ACC,"Portion of Airways A464, A576, B469, B470 and G579 are within these lateral limits."
+8,TANJUNG PINANG TMA,8,002448N 1043700E follow the circle radius 30NM from TI NDB (0055.0N 10432.0E) anti-clockwise until 010342N 1050018E 005612N 1053200E thence along the circle with radius 60NM from TI NDB (0055.0N 10432.0E) clockwise until 000224N 1050206E 002448N 1043700E,10 000ft,3000 FT,,TANJUNG PINANG APPROACH CONTROL OFFICE (APP),"Tanjung Pinang Approach Control Office (APP) shall be responsible for the provision of Air Traffic Control Service to controlled flights within Tanjung Pinang TMA/CTR.
+
+Position Reporting Procedures
+Aircraft operating within or about to enter Tanjung Pinang CTR shall report position:
+a. Over Tanjung Pinang TMA boundary.
+b. Over any other point or time as instructed by ATC.
+
+VFR Flights
+1. Flight Information and alerting service shall only be provided to VFR flight operating within Tanjung Pinang CTR/TMA on request. VFR flight requesting this service shall report intended action and comply with the position or as required by ATC.
+2. No aircraft shall operate under VFR within Tanjung Pinang TMA/CTR until prior authorization has been obtained from Tanjung Pinang Approach. 
+
+Altimeter Setting Procedures
+The ICAO Standard Altimeter Setting Procedures shall be used by aircraft operating within Tanjung Pinang CTR:
+Transition Level: FL130
+Transition Altitude: 11 000ft"
+9,TANJUNG PINANG NORTH CONTROL ZONE (CTR),9,012000N 1041224E 011305N 1042029E 010942N 1043500E thence along the circle radius 27NM from BTM VOR/DME clockwise until 004236N 1041654E 005315N 1040335E 010018N 1035530E 012000N 1041224E,3000ft,GND/MSL,,TANJUNG PINANG APPROACH CONTROL OFFICE (APP),"Tanjung Pinang Approach Control Office (APP) shall be responsible for the provision of Air Traffic Control Service to controlled flights within Tanjung Pinang TMA/CTR.
+
+Position Reporting Procedures
+Aircraft operating within or about to enter Tanjung Pinang CTR shall report position:
+a. Over Tanjung Pinang TMA boundary.
+b. Over any other point or time as instructed by ATC.
+
+VFR Flights
+1. Flight Information and alerting service shall only be provided to VFR flight operating within Tanjung Pinang CTR/TMA on request. VFR flight requesting this service shall report intended action and comply with the position or as required by ATC.
+2. No aircraft shall operate under VFR within Tanjung Pinang TMA/CTR until prior authorization has been obtained from Tanjung Pinang Approach. 
+
+Altimeter Setting Procedures
+The ICAO Standard Altimeter Setting Procedures shall be used by aircraft operating within Tanjung Pinang CTR:
+Transition Level: FL130
+Transition Altitude: 11 000ft"
+10,TANJUNG PINANG SOUTH CONTROL ZONE (CTR),10,004236N 1041654E follow the circle radius 27NM from BTM VOR/DME anti-clockwise until 010942N 1043500E 010342N 1050018E thence along the circle radius 30NM from TI NDB clockwise until 002448N 1043700E 004236N 1041654E,6000ft,GND/MSL,,TANJUNG PINANG APPROACH CONTROL OFFICE (APP),"Tanjung Pinang Approach Control Office (APP) shall be responsible for the provision of Air Traffic Control Service to controlled flights within Tanjung Pinang TMA/CTR.
+
+Position Reporting Procedures
+Aircraft operating within or about to enter Tanjung Pinang CTR shall report position:
+a. Over Tanjung Pinang TMA boundary.
+b. Over any other point or time as instructed by ATC.
+
+VFR Flights
+1. Flight Information and alerting service shall only be provided to VFR flight operating within Tanjung Pinang CTR/TMA on request. VFR flight requesting this service shall report intended action and comply with the position or as required by ATC.
+2. No aircraft shall operate under VFR within Tanjung Pinang TMA/CTR until prior authorization has been obtained from Tanjung Pinang Approach. 
+
+Altimeter Setting Procedures
+The ICAO Standard Altimeter Setting Procedures shall be used by aircraft operating within Tanjung Pinang CTR:
+Transition Level: FL130
+Transition Altitude: 11 000ft"

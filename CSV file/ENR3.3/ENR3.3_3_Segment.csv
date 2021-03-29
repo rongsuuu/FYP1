@@ -1,0 +1,161 @@
+﻿segmant id,start,end,Track MAG down,Track MAG up,Great Circle Dist NM,Upper limit,Lower limit,FL down,FL up,Remarks
+1,1,2,,,126.9NM,FL 460,FL 145,Odd,Even,[Class A]
+2,3,4,,,92.0NM,FL 460,FL 240,,Even,[Class A]
+3,5,6,035°,,340.6NM,FL 460,FL 135,,,[Class A]
+4,6,7,027°,,67.5NM,FL 460,FL 135,,,[Class A]
+5,7,8,027°,,80.5NM,FL 460,FL 245,,,[Class A]
+6,9,10,,,43.1NM,FL 460,FL 240,,Odd,[Class A]
+7,10,11,,,52.2NM,FL 460,FL 240,,Odd,[Class A]
+8,11,12,,,27.2NM,FL 460,FL 240,,Odd,[Class A]
+9,12,13,,,22.6NM,FL 460,FL 240,,Odd,[Class A]
+10,14,15,,,59.9NM,FL 460,FL 240,Even,,[Class A]
+11,15,16,,,31.6NM,FL 460,FL 240,Even,,[Class A]
+12,16,17,,,39.7NM,FL 460,FL 240,Even,,[Class A]
+13,17,18,,,19.4NM,FL 460,FL 240,Even,,[Class A]
+14,18,19,,,25.2NM,FL 460,FL 240,Even,,[Class A]
+15,20,21,,,149.2NM,FL 460,FL 135,,,[Class A]
+16,21,22,,,60.4NM,FL 460,FL 135,Odd,Even,[Class A]
+17,22,23,,,33.0NM,FL 460,FL 135,Odd,Even,[Class A]
+18,23,24,,,25.1NM,FL 460,FL 135,Odd,Even,[Class A]
+19,24,25,,,31.6NM,FL 460,FL 135,Odd,Even,[Class A]
+20,26,27,192°,-,165.8NM,FL 460,FL 240,Odd,,[Class A]
+21,27,28,169°,-,45.9NM,FL 460,FL 240,Odd,,[Class A]
+22,28,29,169°,-,10.8NM,FL 460,FL 240,Odd,,[Class A]
+23,29,30,169°,-,26.4NM,FL 460,FL 240,Odd,,[Class A]
+24,30,31,169°,-,24.2NM,FL 460,FL 240,Odd,,[Class A]
+25,31,32,169°,-,30.7NM,FL 460,FL 240,Odd,,[Class A]
+26,32,33,169°,-,18.3NM,FL 460,FL 240,Odd,,[Class A]
+27,33,34,169°,-,20.1NM,FL 460,FL 240,Odd,,[Class A]
+28,34,35,169°,-,107.2NM,FL 460,FL 240,Odd,,[Class A]
+29,36,37,,,98.0NM,FL 460,FL 240,,Even,[Class A]
+30,37,38,,,62.0NM,FL 460,FL 240,,Even,[Class A]
+31,39,40,,,66.2NM,FL 460,9500 FT ALT,Odd,Even,[Class A]
+32,41,42,,,27.5NM,FL 460,FL 135,Even,Odd,"[Class A - ABV FL150
+Class B - BLW FL150]"
+33,43,44,,,37.3NM,FL 460,5500 FT ALT,Odd,,"[Class A - ABV FL150
+Class B - BLW FL150]"
+34,44,45,,,61.3NM,FL 460,5500 FT ALT,Odd,,"[Class A - ABV FL150
+Class B - BLW FL150]"
+35,46,47,,,42.5NM,FL 460,5500 FT ALT,Odd,Even,"[Class A - ABV FL150
+Class B - BLW FL150]"
+36,47,48,,,58.5NM,FL 460,5500 FT ALT,Odd,Even,"[Class A - ABV FL150
+Class B - BLW FL150]"
+37,48,49,,,93.1NM,FL 460,5500 FT ALT,Odd,Even,"[Class A - ABV FL150
+Class B - BLW FL150]"
+38,50,51,,,69.6NM,FL 460,FL 240,Even,Odd,[Class A]
+39,51,52,,,26.1NM,FL 460,FL 240,Even,Odd,[Class A]
+40,52,53,,,47.9NM,FL 460,FL 240,Even,Odd,[Class A]
+41,53,54,,,58.5NM,FL 460,FL 240,Even,Odd,[Class A]
+42,55,56,,,127.2NM,FL 460,FL 155,Odd,Even,[Class A]
+43,57,58,,,37.9NM,FL 460,FL 135,Even,Odd,"[Class A - ABV FL150
+Class B - BLW FL150]"
+44,59,60,,,30.4NM,FL 460,FL 240,Odd,Even,[Class A]
+45,60,61,,,11.1NM,FL 460,FL 240,Odd,Even,[Class A]
+46,61,62,,,24.8NM,FL 460,FL 240,Odd,Even,[Class A]
+47,62,63,,,"41.1NM	",FL 460,FL 240,Odd,Even,[Class A]
+48,63,64,,,35.7NM,FL 460,FL 240,Odd,Even,[Class A]
+49,64,65,,,67.4NM,FL 460,FL 240,Odd,Even,[Class A]
+50,65,66,,,164.6NM,FL 460,FL 240,Odd,Even,[Class A]
+51,66,67,,,140.5NM,FL 460,FL 240,Odd,Even,[Class A]
+52,68,69,,,46.0NM,FL 460,FL 240,Odd,Even,[Class A]
+53,69,70,,,10.8NM,FL 460,FL 240,Odd,Even,[Class A]
+54,70,71,,,21.0NM,FL 460,FL 240,Odd,Even,[Class A]
+55,71,72,,,32.3NM,FL 460,FL 240,Odd,Even,[Class A]
+56,72,73,,,118.8NM,FL 460,FL 240,Odd,Even,[Class A]
+57,73,74,,,46.5NM,FL 460,FL 240,Odd,Even,[Class A]
+58,74,75,,,40.8NM,FL 460,FL 240,Odd,Even,[Class A]
+59,76,77,,,70.3NM,FL 460,FL 240,Even,Odd,[Class A]
+60,77,78,,,31.4NM,FL 460,FL 240,Even,Odd,[Class A]
+61,79,80,,,53.3NM,FL 460,FL 135,Even,Odd,[Class B]
+62,81,82,,,242.5NM,FL 460,FL 205,,,[Class A]
+63,82,83,,,225.5NM,FL 460,FL 205,,,[Class A]
+64,83,84,,,186.8NM,FL 460,FL 205,,,[Class A]
+65,84,85,,,99.0NM,FL 460,FL 205,,,[Class A]
+66,86,87,,,96.9NM,FL 460,FL 135,Odd,Even,[Class A]
+67,87,88,,,76.9NM,FL 460,FL 135,Odd,Even,[Class A]
+68,88,89,,,55.4NM,FL 460,FL 135,Odd,Even,[Class A]
+69,90,91,,,156.2NM,FL 460,FL 135,,,[Class A]
+70,91,92,,,42.5NM,FL 460,FL 135,,,[Class A]
+71,92,93,,,27.5NM,FL 460,FL 135,,,[Class A]
+72,93,94,,,26.6NM,FL 460,FL 135,,,[Class A]
+73,94,95,,,21.7NM,FL 460,FL 135,,,[Class A]
+74,95,96,,,5.4NM,FL 460,FL 135,,,[Class A]
+75,96,97,,,47.0NM,FL 460,FL 135,,,[Class A]
+76,98,99,020°,-,147.5NM,FL 460,FL 240,,Even,[Class A]
+77,99,100,020°,-,97.9NM,FL 460,FL 240,,Even,[Class A]
+78,101,102,,,148.1NM,FL 460,5500 FT ALT,Odd,Even,"[Class A-ABV FL150
+Class B-BLW FL150]"
+79,102,103,,,57.5NM,FL 460,5500 FT ALT,Odd,Even,"[Class A-ABV FL150
+Class B-BLW FL150]"
+80,104,105,,,20.0NM,FL 460,6500 FT ALT,Odd,Even,"[Class A
+(FL290 and ABV)]"
+81,105,106,,,33.0NM,FL 460,FL 145,Odd,Even,"[Class A
+(FL290 and ABV)]"
+82,106,107,,,93.0NM,FL 460,FL 245,Odd,Even,"[Class A
+(FL290 and ABV)]"
+83,108,109,335°,-,105.3NM,FL 460,FL 275,,Even,
+84,110,111,,,44.1NM,FL 460,FL 245,Odd,Even,[Class B]
+85,111,112,,,16.3NM,FL 460,FL 245,Odd,Even,[Class B]
+86,112,113,,,20.6NM,FL 460,FL 245,Odd,Even,[Class B]
+87,113,114,,,21.8NM,FL 460,FL 245,Odd,Even,[Class B]
+88,114,115,,,21.3NM,FL 460,FL 245,Odd,Even,[Class B]
+89,115,116,,,23.6NM,FL 460,FL 245,Odd,Even,[Class B]
+90,116,117,,,79.5NM,FL 460,FL 245,Odd,Even,[Class B]
+91,117,118,,,29.9NM,FL 460,FL 245,Odd,Even,[Class B]
+92,118,119,,,48.3NM,FL 460,FL 245,Odd,Even,[Class B]
+93,119,120,,,72.4NM,FL 460,FL 245,Odd,Even,[Class B]
+94,121,122,,,246.6NM,FL 460,6500 FT ALT,,,[Class A]
+95,122,123,,,354.3NM,FL 460,6500 FT ALT,,,[Class A]
+96,123,124,,,53.0NM,FL 460,6500 FT ALT,,,[Class A]
+97,124,125,,,58.5NM,FL 460,6500 FT ALT,,,[Class A]
+98,125,126,,,34.2NM,FL 460,6500 FT ALT,,,[Class A]
+99,126,127,,,50.6NM,FL 460,6500 FT ALT,,,[Class A]
+100,128,129,,,65.4NM,FL 460,FL 155,Odd,Even,[Class A]
+101,129,130,,,64.0NM,FL 460,FL 155,Odd,Even,[Class A]
+102,130,131,,,75.5NM,FL 460,FL 155,Odd,Even,[Class A]
+103,131,132,,,11.7NM,FL 460,FL 155,Even,Odd,[Class A]
+104,132,133,,,10.6NM,FL 460,FL 155,Even,Odd,[Class A]
+105,133,134,,,2.6NM,FL 460,FL 155,Even,Odd,[Class A]
+106,134,135,,,106.4NM,FL 460,FL 155,Even,Odd,[Class A]
+107,136,137,,,203.6NM,FL 460,FL 135,,,[Class A]
+108,137,138,,,52.1NM,FL 460,FL 135,,,[Class A]
+109,138,139,,,25.2NM,FL 460,FL 135,,,[Class A]
+110,139,140,,,41.4NM,FL 460,FL 135,,,[Class A]
+111,140,141,,,15.7NM,FL 460,FL 135,,,[Class A]
+112,141,142,,,28.1NM,FL 460,FL 135,,,[Class A]
+113,142,143,,,18.0NM,FL 460,FL 135,,,[Class A]
+114,144,145,146°,-,25.0NM,FL 460,9500 FT ALT,Odd,,"[Class A-ABV FL150
+Class B-BLW FL150]"
+115,145,146,146°,-,16.0NM,FL 460,9500 FT ALT,Odd,,"[Class A-ABV FL150
+Class B-BLW FL150]"
+116,146,147,133°,-,114.1NM,FL 460,FL 275,Odd,,
+117,148,149,,,143.0NM,FL 460,FL 200,,,[Class A]
+118,150,151,,,130.0NM,FL 460,FL 200,Odd,,[Class A]
+119,151,152,,,39.0NM,FL 460,FL 200,Odd,,[Class A]
+120,153,154,,,87.0NM,FL 460,FL 240,Odd,,[Class A]
+121,154,155,,,15.0NM,FL 460,FL 200,Odd,,[Class A]
+122,155,156,,,36.0NM,FL 460,FL 200,Odd,,[Class A]
+123,157,158,,,128.0NM,FL 460,FL 200,,Even,[Class A]
+124,158,159,,,86.0NM,FL 460,FL 200,,Even,[Class A]
+125,160,161,,,121.0NM,FL 460,FL 200,,,[Class A]
+126,162,163,192°,-,42.1NM,FL 460,FL 245,Even,,
+127,164,165,024°,-,29.5NM,FL 460,FL 245,,Odd,
+128,166,167,219°,-,27.8NM,FL 460,FL 245,Even,,
+129,168,169,057°,237°,28.5NM,FL 460,FL 245,Even,Odd,
+130,170,171,087°,267°,38.2NM,FL 460,FL 245,Even,Odd,
+131,172,173,,,38.3NM,FL 460,5500 FT ALT,Even,,"[Class A-ABV FL150
+Class B-BLW FL150]"
+132,174,175,,,32.6NM,FL 460,4500 FT,Even,,"[Class A-ABV FL150
+Class B-BLW FL150]"
+133,176,177,,,34.57NM,FL 460,FL 235 ,Odd,,[Class A]
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,

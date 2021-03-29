@@ -1,0 +1,17 @@
+Id No,Name of station (VOR/VAR),Id,Frequency (CH),Hours of operation,Latitude,Longitude,ELEV DME antenna,Remarks
+1,BATAM/HANG NADIMVOR/DME,BTM,116.0 MHz(CH 107X),from 00:00 to 12:00,1.137,104.133,-,"Operating Authority:Directorate-General of Civil Aviation, Indonesia.PPR outside OPR HR.EM: A2A (DVOR/DME)"
+2,BATAM/HANG NADIMNDB,BM,370 kHz,from 00:00 to 12:00,1.121,104.11,-,"Operating Authority:Directorate-General of Civil Aviation, Indonesia.PPR outside OPR HR.EM: Non/A2A (NDB)"
+3,JAYBEENDB,JB,400 kHz,H24,1.5,103.712,-,BRG 298° DIST 19.6km from ARP Seletar. Coverage 50NM. Unusable 285°-060° beyond 20NM. Bearing fluctuations greater than +/- 10° may be observed in sector 138° to 148°. EM: A0/A2
+4,JOHOR BAHRUDVOR/DME,VJB,112.5 MHz(CH 72X),H24,1.664,103.66,43.07 M,Operating Authority:Department of Civil Aviation Malaysia
+5,JOHOR BAHRUNDB,JR,245 kHz,H24,1.675,103.66,-,Operating Authority:Department of Civil Aviation MalaysiaEM: A0/A2 (NDB)
+6,KONG KONGNDB,KK,286 kHz,H24,1.522,103.99,-,BRG 049° DIST 17.7km from ARP Seletar. Coverage 50NM. Unusable 270°-010° beyond 30NM. Bearing fluctuations greater than +/- 10° may be observed in sector 048° to 052°. EM: A0/A2
+7,MERSINGDVOR/DME,VMR,116.8 MHz(CH 115X),H24,2.388,103.872,-,Operating Authority:Department of Civil Aviation Malaysia. 50w
+8,PAPA UNIFORMDVOR/DME,PU,115.1 MHz(CH 98X),H24,1.423,103.933,AntennaHGT:190 FTAMSL,BRG 020° DIST 9km from THR RWY 02 (Paya Lebar).MAINT Period:Third WED of EV month BTN 0200-0600 Coverage 200NM.EM: F1
+9,PAYA LEBARTACAN,PLA,(CH 110X),BTN 2300-1100 SUN/MON to THU/FRI; BTN 2300-0500 FRI/SAT; PPR from RSAF HQ via Paya Lebar OPS at other times.,1.373,103.914,-,BRG 015° DIST 1.5km from ARP.MAINT Period: Second THU of EV month BTN 0001-1100
+10,SELETARNDB,SEL,220 kHz,H24,1.414,103.869,-,BRG 152° DIST 0.44km from ARP.Coverage 50NM. EM: A0/A2
+11,SEMBAWANGNDB,AG,325 kHz,H24,1.423,103.823,-,BRG 198° DIST 0.54km from ARP.MAINT Period:Second FRI of EV month BTN 0200-0400.Coverage 30NM. EM: A3
+12,SINJONDVOR/DME,SJ,113.5 MHz(CH 82X),H24,1.222,103.856,AntennaHGT:150 FTAMSL,BRG 201° DIST 14.5km from THR RWY 02 (Paya Lebar Airport).MAINT Period:Third THU of EV month BTN 0200-0600.Coverage 200NM. EM: F1
+13,TANJUNG PINANGNDB,TI,385 kHz,from 00:00 to 14:00,0.92,104.526,-,"Operating Authority:Directorate-General of Civil Aviation, Indonesia.EM: Non/A2A (NDB)"
+14,TANJUNG PINANGVOR/DME,TPG,114.8 MHz(CH 95X),from 00:00 to 14:00,0.904,104.514,-,"Operating Authority:Directorate-General of Civil Aviation, Indonesia.Coverage 40NM."
+15,TEKONGDVOR/DME,VTK,116.5 MHz(CH 112X),H24,1.415,104.022,AntennaHGT:150 FTAMSL,BRG 023° DIST 6.4km from THR RWY 20C (Singapore Changi Airport).MAINT Period:Third FRI of EV month BTN 0200-0600.Coverage 200NM. EM:F1
+16,TENGAHTACAN,TNG,(CH 86X),BTN 2300-1100 SUN/MON to THU/FRI; BTN 2300-0500 FRI/SAT; PPR from RSAF HQ via Tengah OPS at other times.,1.393,103.712,-,BRG 043° DIST 0.55km from ARP.MAINT Period:Second SAT of EV month BTN 0001-0900.

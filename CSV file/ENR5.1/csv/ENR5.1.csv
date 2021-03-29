@@ -1,0 +1,120 @@
+﻿id,Information,Lateral Limit id,Identification,Name,Lateral Limits,Upper limit, Lower limit,Remarks
+1,PROHIBITED AREAS,1,WSP3,,"A circle, 0.8NM radius centred at 012136N 1034746E",750 FT,GND,"Active: Permanent.
+Under no circumstances shall a forced landing be permitted within the area. Rotary wing aircraft shall avoid overflying the area."
+2,PROHIBITED AREAS,2,WSP24,,"Area within two circles, 150m radius, centred at Mt. Faber (011615N 1034909E) and Sentosa Island (011519N 1034858E) and the tangential lines joining these circles.",800 FT ALT ,GND/WATER,Active: Permanent.
+3,PROHIBITED AREAS,3,WMP228,BUKIT SERENE,Area within 2NM centred at 012845N 1034334E with the southern border of the Prohibited Area coinciding with the coastline of South Johor.,5000 FT ALT,GND,"Sultan’s Palace.
+Active: Permanent.
+(refer to AIP Malaysia)"
+4,RESTRICTED AREAS,4,WSR6,,Area bounded by 012355N 1034626E to 012359.0N 1034734.1E then along the boundaries of WSD35 and WSP3 to 012130.00N 1034658.37E.,200 FT ALT,GND,"Helicopter Operations.
+Active: Permanent."
+5,RESTRICTED AREAS,5,WSR9,," A circle, 0.3NM radius centred at 011647N 1035009E.",201 FT ALT,GND,"Helicopter Operations.
+Active: Permanent."
+6,RESTRICTED AREAS,6,WSR10,,"A circle, 0.6NM radius, centred at 012136.2197N 1034055.3795E.",5500 FT ALT,GND,Active: Permanent.
+7,RESTRICTED AREAS,7,WSR16,,"A circle, 0.3NM radius centred at 011918N 1035045E.",200 FT ALT,GND,"Helicopter Operations.
+Active: Permanent."
+8,RESTRICTED AREAS,8,WSR38,,"A circle, 1NM radius centred at 011807N 1035031E",10000 FT ALT,GND,"Istana.
+Active: Permanent.
+All FLT BTN SJ/JB on AWY G579 are to avoid at all times the area which overlaps the eastern edge of G579 ."
+9,RESTRICTED AREAS,9,WMR104,,"032859N 1030254E 023959N 1023454E
+022300N 1025954E 022300N 1034554E
+032059N 1032054E 031859N 1031554E
+032559N 1031254E 032859N 1030254E.",10001 FT ALT,3000 FT ALT,"	Training.
+Active: 2230-1030 SUN-MON to FRI-SAT
+(refer to AIP Malaysia)"
+10,RESTRICTED AREAS,10,WMR223,KANGAR KAHANG,"A circle, 5NM radius, centred at 021500N 1033354E",10000 FT ALT,GND,"Parachute Dropping.
+Active: by NOTAM.
+Controlling Authority: Kluang Tower 128.3 MHz/122.4 MHz.
+(refer to AIP Malaysia)"
+11,RESTRICTED AREAS,11,WMR225 ,NORTH-KLUANG,"An arc of a circle, radius 20NM, centred at 020230N 1031824E (Kluang Control Tower) from 020000N 1025839E to 021830N 1032954E; then an arc of a circle, radius 6NM, centred at 020230N 1031824E (Kluang Control Tower) from 020200N 1031224E to 020730N 1032154E; then straight lines joining 020000N 1025839E to 020200N 1031224E and 021830N 1032954E to 020730N 1032224E.",3500 FT ALT,GND,"Army Airwing Helicopter Training Area
+Active:
+2330-1030 SUN-MON TO WED-THU;
+2330-0500 THU-FRI; 0600-1030 FRI; and 2330-0430 FRI-SAT;
+SUN and PH closed.
+
+Controlling Authority:
+Kluang Tower 128.3 MHz and 122.4 MHz
+
+PPR for all non-Malaysian Army aircraft. During hours of operations, request through Kluang Army Airwing Operations (48 hours prior notice).
+No refuelling for civil aircraft.
+(refer to AIP Malaysia)"
+12,RESTRICTED AREAS,12,WMR226,WEST-KLUANG,"An arc of a circle, radius 20NM, centred at 020230N 1031824E (Kluang Control Tower) from 020000N 1025839E to 014630N 1030554E; then an arc of a circle, radius 6NM, centred at 020230N 1031824E (Kluang Control Tower) from 020200N 1031224E to 015650N 1031709E.",2000 FT ALT,GND,"Army Airwing Helicopter Training Area
+Active:
+2330-1030 SUN-MON TO WED-THU;
+2330-0500 THU-FRI; 0600-1030 FRI; and 2330-0430 FRI-SAT;
+SUN and PH closed.
+
+Controlling Authority:
+Kluang Tower 128.3 MHz and 122.4 MHz
+
+PPR for all non-Malaysian Army aircraft. During hours of operations, request through Kluang Army Airwing Operations (48 hours prior notice).
+No refuelling for civil aircraft.
+(refer to AIP Malaysia)"
+13,RESTRICTED AREAS,13,WMR229,,"A circle, 1NM radius, centred at 013730N 1034952E.",1500 FT ALT,GND,"Helicopter Operations.
+Active: 0100-0830 MON-FRI.
+Visiting military aircraft are required to give advance notice of movements to Jungle Warfare School.
+(refer to AIP Malaysia)"
+14,DANGER AREAS,14,WSD4,SOUTHERN ISLAND LIVE FIRING RANGE,"An arc, 3.5NM radius, centred at 011230N 1034354E with eastern extremity at 011230N 1034724E and western extremity at 011459N 1034125E.",FL 160,GND/WATER,"Air to GND and GND to GND Firing Range.
+Active:
+2300-1500 SUN-MON to THU-FRI;
+2300-1100 FRI-SAT to SAT-SUN and
+PH Eve-PH
+Activities outside these hours will be
+notified by NOTAM."
+15,DANGER AREAS,15,WSD11,PASIR LABA (General Area).,"012550N 1034024E 012333N 1033904E
+012303N 1033909E 012058N 1033759E
+011933N 1034009E 012142N 1034104E
+012245N 1034104E 012440N 1034124E",1300 FT ALT,GND,"Small Arm Firing
+Active: Permanent."
+16,DANGER AREAS,16,WSD11A,PASIR LABA (Northern Area within the General Area).,"012550N 1034024E 012333N 1033904E
+012303N 1033909E 012240N 1034016E
+012245N 1034104E 012440N 1034124E",FL 125,GND,"Artillery Firing
+At least 7 days advance notice by NOTAM."
+17,DANGER AREAS,17,WSD11B,PASIR LABA (Southern Area within the General Area).,"012303N 1033909E 012240N 1034016E
+012245N 1034104E 012142N 1034104E
+011933N 1034009E 012058N 1033759E",FL 125,GND,"Artillery Firing
+At least 7 days advance notice by NOTAM."
+18,DANGER AREAS,18,WSD13,AREA KILO BTN LAT,020000N 023000N  1043600E 1045500E.,FL 550,WATER,"Naval Anti-Aircraft Firing
+72 HR notice by NOTAM."
+19,DANGER AREAS,19,WSD14,AREA LIMA,013000N 020000N  1043600E 1045500E,FL 550,WATER,"BTN LAT 013000N 020000N and LONG 1043600E 1045500E.	
+FL 550
+WATER
+Naval Anti-Aircraft Firing and Live Air to Air Firing. 72 HR notice by NOTAM."
+20,DANGER AREAS,20,WSD15,AREA MIKE,BTN LAT 013000N 020000N and LONG 1045500E 1053000E.,FL 550,WATER,"Naval Carrier Operation Area
+72 HR notice by NOTAM."
+21,DANGER AREAS,21,WSD20,AREA HOTEL,BTN LAT 023000N 030000N and LONG 1043600E 1045500E.,2000 FT ALT,WATER,"Naval Exercise Area
+72 HR notice by NOTAM."
+22,DANGER AREAS,22,WSD34,PULAU TEKONG,"012409N 1040208E 012419N 1040332E
+012349N 1040240E 012351N 1040200E.",500 FT ALT,GND,"Rifle Range
+Active: Permanent"
+23,DANGER AREAS,23,WSD35,NEE SOON,"A circle, 1NM radius, centred at 012310N 1034809E.",900 FT ALT,GND,"Rifle Range
+Active: Permanent"
+24,DANGER AREAS,24,WSD44,,BTN LAT 020000N 023000N and LONG 1045500E 1051230E,FL 550,WATER,"Naval Anti-Aircraft Firing Range
+Active: 72hr prior notice by NOTAM"
+25,DANGER AREAS,25,WSD45,,BTN LAT 020000N 023000N and LONG 1051230E 1053000E,FL 550,WATER,"Naval Anti-Aircraft Firing Range
+Active: 72hr prior notice by NOTAM"
+26,DANGER AREAS,26,WMD8,CHINA SEA NORTH RANGE,BTN LAT 013000N 020000N and LONG 1042000E 1043500E,FL 550,WATER,"Naval Anti-Aircraft Firing Range
+Active: 72hr prior notice by NOTAM"
+27,DANGER AREAS,27,WMD12 , AREA JULIET,BTN LAT 020000N 023000N and LONG 1041700E 1043600E.,FL 550,WATER,"Naval Anti-Aircraft Firing Range
+Active: 72hr prior notice by NOTAM"
+28,DANGER AREAS,28,WMD21,AREA GOLF,"BTN LAT 023000N 030000N and LONG 1043600E 1041700E.	",2000 FT ALT,WATER,"	Naval Exercise Area
+Active: 72hr prior notice by NOTAM"
+29,DANGER AREAS,29,WMD224,MALAYSIAN NAVAL EXERCISE AREA,"012500N 1025954E 013000N 1025954E
+012700N 1030954E 012200N 1030954E",12000 FT ALT,WATER,"Firing Range
+Active: 48hr prior notice by NOTAM.
+2 exercises per month."
+30,DANGER AREAS,30,WMD227,PULAU YU,"021900N 1041324E 020000N 1041324E
+020000N 1041700E 021900N 1041700E
+021900N 1041324E",10000 FT ALT,WATER,"Radar Bombing Range
+Active: 72hr prior notice by NOTAM.
+Area will be confirmed ‘clear’ by participating aircraft prior to commencing live attacks.
+(refer to AIP Malaysia)"
+31,DANGER AREAS,31,WMD230,ULU TIRAM (SOUTH),"013720N 1035324E 013840N 1035135E
+013704N 1034954E 013530N 1035140E.",2000 FT ALT #,GND,"Artillery Firing Range. Active: PERM
+# When activity necessitates raising upper limit to 9,500ft ALT, 48hr prior notice will be given by NOTAM.
+(refer to AIP Malaysia)"
+32,DANGER AREAS,32,WMD231,ULU TIRAM (NORTH),"013815N 1034950E 013927N 1035028E
+014238N 1034929E 014239N 1034822E
+014133N 1034627E 013840N 1034627E
+013858N 1034840E.",2000 FT ALT *,GND,"Artillery Firing Range. Active: PERM
+* When activity necessitates raising upper limit to 9,500ft ALT, 48hr prior notice will be given by NOTAM.
+(refer to AIP Malaysia)"

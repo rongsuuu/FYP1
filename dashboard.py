@@ -1445,23 +1445,17 @@ fig3 = px.line_mapbox(df3, lat="Latitude", lon="Longitude", color="Route_Designa
 fig3.update_layout(mapbox_style="stamen-terrain", mapbox_zoom=4, mapbox_center_lat = 1.385, mapbox_center_lon = 106.759,
     margin={"r":0,"t":0,"l":0,"b":0})
 #-----------------------------------------------------------------------------------------------------------------------------
-#scatter map coding for ENR3.6#
-fig3_6 = px.scatter_mapbox(df3_6.to_dict('records'), lat="WPT_Coordinates_latitude", lon="WPT_Coordinates_longitude",
-                           hover_name="HLGD_ID", hover_data=["FIX"],
+fig3_6 = px.scatter_mapbox(df3_6.to_dict('records'), lat="WPT_Coordinates_latitude", lon="WPT_Coordinates_longitude", hover_name="HLGD_ID", hover_data=["FIX"],
                         color_discrete_sequence=["purple"], zoom=9, height=650,width=950)
 fig3_6.update_layout(mapbox_style="open-street-map")
 fig3_6.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
 #-----------------------------------------------------------------------------------------------------------------------------
-#scatter map coding for ENR4.1#
-fig4_1 = px.scatter_mapbox(df4_1.to_dict('records'), lat="Latitude", lon="Longitude", hover_name="Name_of_station",
-                           hover_data=["Id"],
+fig4_1 = px.scatter_mapbox(df4_1.to_dict('records'), lat="Latitude", lon="Longitude", hover_name="Name_of_station", hover_data=["Id"],
                         color_discrete_sequence=["purple"], zoom=9, height=650,width=950)
 fig4_1.update_layout(mapbox_style="open-street-map")
 fig4_1.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
 #-----------------------------------------------------------------------------------------------------------------------------
-#scatter map coding for ENR4.4#
-fig4_4 = px.scatter_mapbox(df4_4.to_dict('records'), lat="Latitude", lon="Longitude", hover_name="Name_Code_designator",
-                           hover_data=["ATS_route_or_other_route"],
+fig4_4 = px.scatter_mapbox(df4_4.to_dict('records'), lat="Latitude", lon="Longitude", hover_name="Name_Code_designator", hover_data=["ATS_route_or_other_route"],
                         color_discrete_sequence=["purple"], zoom=9, height=650,width=950)
 fig4_4.update_layout(
     mapbox = {
@@ -1471,9 +1465,7 @@ fig4_4.update_layout(
     height=650,width=950,
     margin = {'l':0, 'r':0, 'b':0, 't':0})
 #-----------------------------------------------------------------------------------------------------------------------------
-#scatter map coding for ENR4.5#
-fig4_5 = px.scatter_mapbox(df4_5.to_dict('records'), lat="Latitude", lon="Longitude",
-                           hover_name="Name_Ident_coordinates", hover_data=["Characteristics"],
+fig4_5 = px.scatter_mapbox(df4_5.to_dict('records'), lat="Latitude", lon="Longitude", hover_name="Name_Ident_coordinates", hover_data=["Characteristics"],
                         color_discrete_sequence=["purple"], zoom=9, height=650,width=950)
 fig4_5.update_layout(mapbox_style="open-street-map")
 fig4_5.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
@@ -1494,8 +1486,8 @@ fig5_1_1.update_layout(
     showlegend = False,
     margin = {'l':0, 'r':0, 'b':0, 't':0})
 
-#Filled area and lines on map code for Query2-----------------------------------------------------------------------------------------------------------------
-fig5_1_1SA = go.Figure(go.Scattermapbox(         #this part is the filled area coding#
+#-----------------------------------------------------------------------------------------------------------------------------
+fig5_1_1SA = go.Figure(go.Scattermapbox(
     fill = "toself",
     lon = [103.048,102.582,102.998,103.765,103.348,103.265,103.215,103.048],
     lat = [3.483,2.666,2.383,2.383,3.35,3.316,3.433,3.483],
@@ -1511,7 +1503,7 @@ fig5_1_1SA.update_layout(
     showlegend = True,
     margin = {'l':0, 'r':0, 'b':0, 't':0})
 
-fig5_1_1SA.add_trace(go.Scattermapbox(              #this part is the line on map coding#
+fig5_1_1SA.add_trace(go.Scattermapbox(
     mode = "markers+lines",
     lon = [103.222,103.642],
     lat = [3.291,2.895],
@@ -2222,7 +2214,6 @@ fig5_1_2SA.add_trace(go.Scattermapbox(
     lat = [3.291,2.895],
     name = 'Y514',
     marker = {'size': 5}))
-
 #Filled map coding for ENR5.2 LIGHT AIRCRAFT TRAINING AREA A#-----------------------------------------------------------------
 
 fig5_2_1 = go.Figure(go.Scattermapbox(
@@ -2285,8 +2276,7 @@ fig5_2_4.update_layout(
     height=650,width=950,
     showlegend = False,
     margin = {'l':0, 'r':0, 'b':0, 't':0})
-
-#Filled map coding for ENR5.2 LIGHT AIRCRAFT TRAINING AREA C#-------------------------------------------------------------------------
+#Filled map coding for ENR5.2 LIGHT AIRCRAFT TRAINING AREA B#-------------------------------------------------------------------------
 
 fig5_2_5 = go.Figure(go.Scattermapbox(
     fill = "toself",
@@ -2315,14 +2305,36 @@ figQ1 = go.Figure(go.Scattermapbox(
 figQ1.update_layout(
     mapbox = {
         'style': "stamen-terrain",
-        'center': {'lon': -73, 'lat': 46 },
+        'center': {'lon': 103.761, 'lat': 1.38 },
         'zoom': 5},
+    height=650,width=950,
     showlegend = False)
+
+#danger area code for query3--------------------------------------------------------------------------------------------
+fig5_1_WSD34Q3 = go.Figure(go.Scattermapbox(
+    fill = "toself",
+    lon = [104.036,104.059,104.044,104.033],
+    lat = [1.403,1.405,1.397,1.398,],
+    name = 'WSD34 PULAU TEKONG',
+    marker = { 'size': 1, 'color': "red" }))
+
+fig5_1_WSD34Q3.update_layout(
+    mapbox = {'style': "stamen-terrain", 'center': {'lon': 103.831, 'lat': 1.638}, 'zoom': 8},
+    height=650,width=850,
+    showlegend = True,
+    margin = {'l':0, 'r':0, 'b':0, 't':0})
+
+fig5_1_WSD34Q3.add_trace(go.Scattermapbox(
+    mode="markers+lines",
+    lon=[104.022, 104.514, 105.354, 106.522],
+    lat=[1.415, 0.904, 0.407, -0.616],
+    name='M635',
+    marker={'size': 5}))
 
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], suppress_callback_exceptions=True)
 
-def custom_input(paragraph_text,id, min_value=0, max_value=200, step=1):
+def custom_input(paragraph_text,id, min_value=0, max_value=200, step=1): #def for Query1#
     return html.Div(
         children=[
             html.P(paragraph_text, style={"paddingRight": 10}),
@@ -2370,9 +2382,7 @@ sidebar = html.Div(
 
             ],
             vertical=True,
-            pills=True
-
-            ,
+            pills=True,
         ),
         html.P(
             "QUREY", className="lead"
@@ -2380,14 +2390,12 @@ sidebar = html.Div(
         dbc.Nav(
             [
                 dbc.NavLink("Qurey1", href="/Query1", active="exact"),
-                dbc.NavLink("Sector Area", href="/Sector_Area", active="exact"),
+                dbc.NavLink("Section Area", href="/Section_Area", active="exact"),
                 dbc.NavLink("Danger Area", href="/Danger_Area", active="exact")
                 ,
             ],
             vertical=True,
-            pills=True
-
-            ,
+            pills=True,
         ),
     ],
     style=SIDEBAR_STYLE,
@@ -2397,7 +2405,6 @@ sidebar = html.Div(
 content = html.Div(id="page-content", style=CONTENT_STYLE)
 
 app.layout = html.Div([dcc.Location(id="url"), sidebar, content])
-
 
 @app.callback(Output("page-content", "children"), [Input("url", "pathname")])
 def render_page_content(pathname):
@@ -2451,32 +2458,16 @@ def render_page_content(pathname):
                 dbc.Row(
                     [
                         dbc.Col(dcc.Graph(id='graph', figure={})),
-                        dbc.Label("Total number of airways"),
-                        dbc.Col(dbc.DropdownMenu(
-                            color='info',
-                            label="Select",
-                            id='2_1_dropdown',
-                            children=[
-                                dbc.DropdownMenuItem("Singapore FIR", id='Singapore_FIR'),
-                                dbc.DropdownMenuItem("Section 1B", id='Section_1B'),
-                                dbc.DropdownMenuItem("Section 1D", id='Section_1D'),
-                                dbc.DropdownMenuItem("Section 1F", id='Section_1F'),
-                                dbc.DropdownMenuItem("Section 2A", id='Section_2A'),
-                                dbc.DropdownMenuItem("Section 2C", id='Section_2C'),
-                                dbc.DropdownMenuItem("Section 2E", id='Section_2E'),
-                                dbc.DropdownMenuItem("Section 2H", id='Section_2H'),
-                            ]
-                        )),
-                        (html.P(id='2_1_output'))])
+                       ])
             ])]))
 
 
     elif pathname == "/ENR3" :
         return html.P(
             html.Div(children=[html.Div([
-                html.H1("COMBINE", style={'text-align': 'center', 'fontSize': 30}),
+                html.H1("AIR ROUTES", style={'text-align': 'center', 'fontSize': 30}),
                 dash_table.DataTable(
-                    id='adding-rows-table_31',
+                    id='adding-rows-table_3',
                     columns=[{"name": i, "id": i,
                               'deletable': False,  # enable to delete the column
                               'renamable': True  # enable to rename the column
@@ -2504,7 +2495,7 @@ def render_page_content(pathname):
                     editable=True,  # allow editing in the table
                     row_deletable=True,  # deleting of rows
                     sort_by=[]),
-                dcc.Graph(figure=fig3),
+                dcc.Graph(figure=fig3),  # figure map
 
             ])
         ]))
@@ -2667,9 +2658,10 @@ def render_page_content(pathname):
                 dcc.Graph(figure=fig4_5),
         ])
         ]))
+
     elif pathname == "/ENR5_1":
         return html.P(html.Div(children=[html.Div([
-            html.H1("DESIGNATION OF AREA", style={'text-align': 'center', 'fontSize': 30}),
+            html.H1("NAVIGATION WARNINGS", style={'text-align': 'center', 'fontSize': 30}),
 
             dash_table.DataTable(
                 id='adding-rows-table_5_1',
@@ -2726,7 +2718,7 @@ def render_page_content(pathname):
     elif pathname == "/ENR5_2" :
         return html.P(
             html.Div(children=[html.Div([
-                html.H1("ATS ROUTES", style={'text-align': 'center', 'fontSize': 30}),
+                html.H1("MILITARY EXERCISE AND TRAINING AREAS", style={'text-align': 'center', 'fontSize': 30}),
 
                 dash_table.DataTable(
                     id='adding-rows-table_5_2',
@@ -2816,10 +2808,10 @@ def render_page_content(pathname):
 
         ])]))
 
-    elif pathname == "/Sector_Area":
+    elif pathname == "/Section_Area":
         return html.P(
             html.Div(children=[html.Div([
-          html.H1("SECTOR AREA AIR ROUTES QUERY", style={'text-align': 'center','fontSize': 30}),
+          html.H1("SECTION AREA AIR ROUTES QUERY", style={'text-align': 'center','fontSize': 30}),
                 dbc.Row(
                     [
                         dbc.Col(dcc.Graph(id='graphQ2', figure={})),
@@ -2854,8 +2846,25 @@ def render_page_content(pathname):
                             label="Select",
                             id='2_1_dropdown',
                             children=[
-                                dbc.DropdownMenuItem("RESTRICTED AREAS", id='RA'),
-                                dbc.DropdownMenuItem("DANGER AREAS", id='DA'),
+                                dbc.DropdownMenuItem("RESTRICTED AREAS WMR104", id='RAWMR104'),
+                                dbc.DropdownMenuItem("DANGER AREAS WSD11 PASIR LABA", id='DAWSD11'),
+                                dbc.DropdownMenuItem("DANGER AREAS WSD11A PASIR LABA", id='DAWSD11A'),
+                                dbc.DropdownMenuItem("DANGER AREAS WSD11B PASIR LABA", id='DAWSD11B'),
+                                dbc.DropdownMenuItem("DANGER AREAS WSD13 AREA KILO", id='DAWSD13'),
+                                dbc.DropdownMenuItem("DANGER AREAS WSD14 AREA LIMA", id='DAWSD14'),
+                                dbc.DropdownMenuItem("DANGER AREAS WSD15 AREA MIKE", id='DAWSD15'),
+                                dbc.DropdownMenuItem("DANGER AREAS WSD20 AREA HOTEL", id='DAWSD20'),
+                                dbc.DropdownMenuItem("DANGER AREAS WSD34 PULAU TEKONG", id='DAWSD34'),
+                                dbc.DropdownMenuItem("DANGER AREAS WSD44", id='DAWSD44'),
+                                dbc.DropdownMenuItem("DANGER AREAS WSD45", id='DAWSD45'),
+                                dbc.DropdownMenuItem("DANGER AREAS WMD8 CHINA SEA NORTH RANGE", id='DAWMD8'),
+                                dbc.DropdownMenuItem("DANGER AREAS WMD12 AREA JULIET", id='DAWMD12'),
+                                dbc.DropdownMenuItem("DANGER AREAS WMD21 AREA GOLF", id='DAWMD21'),
+                                dbc.DropdownMenuItem("DANGER AREAS WMD224 MALAYSIAN NAVAL EXERCISE AREA", id='DAWMD224'),
+                                dbc.DropdownMenuItem("DANGER AREAS WMD227 PULAU YU", id='DAWMD227'),
+                                dbc.DropdownMenuItem("DANGER AREAS WMD230 ULU TIRAM (SOUTH)", id='DAWMD230'),
+                                dbc.DropdownMenuItem("DANGER AREAS WMD231 ULU TIRAM (NORTH)", id='DAWMD231'),
+
                             ]
                         )),
                         (html.P(id='Q3_output'))
@@ -2910,44 +2919,6 @@ def clicked_output(button,button2,button3,button4,button5,button6,button7,button
             return fig1_8
         else :
             return fig1_9
-
-@app.callback(
-          Output('2_1_output', 'children'),
-         [Input('Singapore_FIR', 'n_clicks'),
-          Input('Section_1B', 'n_clicks'),
-          Input('Section_1D', 'n_clicks'),
-          Input('Section_1F', 'n_clicks'),
-          Input('Section_2A', 'n_clicks'),
-          Input('Section_2C', 'n_clicks'),
-          Input('Section_2E', 'n_clicks'),
-          Input('Section_2H', 'n_clicks')])
-
-def dropdowntable(*args):
-    ctx = dash.callback_context
-
-    if not ctx.triggered:
-        dropdown = "all"
-    else:
-        dropdown = ctx.triggered[0]['prop_id'].split('.')[0]
-        if dropdown in ["Singapore_FIR"]:
-            return "Total number of airway points for Singapore FIR is 72"
-        elif dropdown in ["Section_1B"] :
-            return "Total number of airway points for Section 1B is 13"
-        elif dropdown in ["Section_1D"] :
-            return 'Total number of airway points for Section 1D is 18'
-        elif dropdown in ["Section_1F"] :
-            return 'Total number of airway points for Section 1F is 13'
-        elif dropdown in ["Section_2A"] :
-            return 'Total number of airway points for Section 2A is 22'
-        elif dropdown in ["Section_2C"] :
-            return 'Total number of airway points for Section 2C is 19'
-        elif dropdown in ["Section_2E"] :
-            return 'Total number of airway points for Section 2E is 14'
-        else:
-            return 'Total number of airway points for Section 2H is 6'
-
-
-    raise PreventUpdate
 
 
 #CALLBACK FOR TABLE 3#-------------------------------------------------------------------------------------------------
@@ -3078,7 +3049,7 @@ def clicked_output(buttonA,buttonAE,buttonAW,buttonB,buttonC):
         else :
             return fig5_2_5
 
-#Qurey callacbk -------------------------------------------------------------------------------------------------------
+#Qurey1 callacbk -------------------------------------------------------------------------------------------------------
 @app.callback(
     Output("output", "children"),
     Input("input1", "value"),
@@ -3556,6 +3527,8 @@ def update_graphQ(n_clicks):
 
     return figQ1
 
+#callback for Query2 sector area-----------------------------------------------------------------------------------
+
 @app.callback(
           [Output('graphQ2', 'figure'),
           Output('Q2_output','children')],
@@ -3596,11 +3569,29 @@ def dropdowntable(*args):
             return fig1_9SA,"You have select COMBINE"
     raise PreventUpdate
 
+#callback for Query3 danger area-----------------------------------------------------------------------------------
+
 @app.callback(
           [Output('graphQ3', 'figure'),
            Output('Q3_output','children')],
-         [Input('RA', 'n_clicks'),
-          Input('DA', 'n_clicks')])
+         [Input('RAWMR104', 'n_clicks'),
+          Input('DAWSD11', 'n_clicks'),
+          Input('DAWSD11A', 'n_clicks'),
+          Input('DAWSD11B', 'n_clicks'),
+          Input('DAWSD13', 'n_clicks'),
+          Input('DAWSD14', 'n_clicks'),
+          Input('DAWSD15', 'n_clicks'),
+          Input('DAWSD20', 'n_clicks'),
+          Input('DAWSD34', 'n_clicks'),
+          Input('DAWSD44', 'n_clicks'),
+          Input('DAWSD45', 'n_clicks'),
+          Input('DAWMD8', 'n_clicks'),
+          Input('DAWMD12', 'n_clicks'),
+          Input('DAWMD21', 'n_clicks'),
+          Input('DAWMD224', 'n_clicks'),
+          Input('DAWMD227', 'n_clicks'),
+          Input('DAWMD230', 'n_clicks'),
+          Input('DAWMD231', 'n_clicks')])
 
 def dropdowntable(*args):
     ctx = dash.callback_context
@@ -3609,10 +3600,42 @@ def dropdowntable(*args):
         dropdown = "all"
     else:
         dropdown = ctx.triggered[0]['prop_id'].split('.')[0]
-        if dropdown in ["RA"]:
+        if dropdown in ["RAWMR104"]:
             return fig5_1_1SA,"You have select RESTRICTED AREA"
+        elif dropdown in ["DAWSD11"]:
+            return fig5_1_WSD11,"You have selected DANGER AREA WSD11 PASIR LABA"
+        elif dropdown in ["DAWSD11A"]:
+            return fig5_1_WSD11A, "You have selected DANGER AREA WSD11A PASIR LABA"
+        elif dropdown in ["DAWSD11B"]:
+            return fig5_1_WSD11B, "You have selected DANGER AREA WSD11B PASIR LABA"
+        elif dropdown in ["DAWSD13"]:
+            return fig5_1_WSD13, "You have selected DANGER AREA WSD13 AREA KILO"
+        elif dropdown in ["DAWSD14"]:
+            return fig5_1_WSD14, "You have selected DANGER AREA WSD13 AREA LIMA"
+        elif dropdown in ["DAWSD15"]:
+            return fig5_1_WSD15, "You have selected DANGER AREA WSD13 AREA MIKE"
+        elif dropdown in ["DAWSD20"]:
+            return fig5_1_WSD15, "You have selected DANGER AREA WSD13 AREA HOTEL"
+        elif dropdown in ["DAWSD34"]:
+            return fig5_1_WSD34Q3,"You have select DANGER AREA WSD34 PULAU TEKONG"
+        elif dropdown in ["DAWSD44"]:
+            return fig5_1_WSD44, "You have select DANGER AREA WSD44"
+        elif dropdown in ["DAWSD45"]:
+            return fig5_1_WSD45, "You have select DANGER AREA WSD45"
+        elif dropdown in ["DAWMD8"]:
+            return fig5_1_WMD8, "You have select DANGER AREA WMD8 CHINA SEA NORTH RANGE"
+        elif dropdown in ["DAWMD12"]:
+            return fig5_1_WMD12, "You have select DANGER AREA WMD12 AREA JULIET"
+        elif dropdown in ["DAWMD21"]:
+            return fig5_1_WMD21, "You have select DANGER AREA WMD21 AREA GOLF"
+        elif dropdown in ["DAWMD224"]:
+            return fig5_1_WMD224, "You have select DANGER AREA MALAYSIAN NAVAL EXERCISE AREA"
+        elif dropdown in ["DAWMD227"]:
+            return fig5_1_WMD227, "You have select DANGER AREA WMD227 PULAU YU"
+        elif dropdown in ["DAWMD230"]:
+            return fig5_1_WMD230, "You have select DANGER AREA WMD230 ULU TIRAM (SOUTH)"
         else:
-            return fig5_1_2SA,"You have select DANGER AREA"
+            return fig5_1_WMD231, "You have select DANGER AREA WMD230 ULU TIRAM (NORTH)"
     raise PreventUpdate
 
 if __name__ == '__main__':

@@ -2378,7 +2378,7 @@ sidebar = html.Div(
         ),
         dbc.Nav(
             [
-                dbc.NavLink("Qurey1", href="/Query1", active="exact"),
+                dbc.NavLink("Air Routes", href="/Air_Routes", active="exact"),
                 dbc.NavLink("Section Area", href="/Section_Area", active="exact"),
                 dbc.NavLink("Danger Area", href="/Danger_Area", active="exact")
                 ,
@@ -2413,7 +2413,7 @@ def render_page_content(pathname):
 
                     data=df2_1.to_dict('records'),  # design of the table
                     page_current=0,
-                    page_size=15,
+                    page_size=5,
                     page_action='native',
                     sort_action='native',
                     column_selectable="single",
@@ -2432,7 +2432,6 @@ def render_page_content(pathname):
                     merge_duplicate_headers=True,
                     filter_action='native',  # filtering function
                     editable=True,  # allow editing in the table
-                    row_deletable=True,  # deleting of rows
                     sort_by=[]),
             html.Button('Singapore FIR', id='button', n_clicks=0),
             html.Button('Section 1B', id='button2', n_clicks=0),
@@ -2482,7 +2481,6 @@ def render_page_content(pathname):
                     merge_duplicate_headers=True,
                     filter_action='native',  # filtering function
                     editable=True,  # allow editing in the table
-                    row_deletable=True,  # deleting of rows
                     sort_by=[]),
                 dcc.Graph(figure=fig3),  # figure map
 
@@ -2500,10 +2498,9 @@ def render_page_content(pathname):
                               'deletable': False,  # enable to delete the column
                               'renamable': True  # enable to rename the column
                               } for i in df3_6.columns],
-
                     data=df3_6.to_dict('records'),  # design of the table
                     page_current=0,
-                    page_size=20,
+                    page_size=10,
                     page_action='native',
                     sort_action='native',
                     column_selectable="single",
@@ -2522,7 +2519,6 @@ def render_page_content(pathname):
                     merge_duplicate_headers=True,
                     filter_action='native',  # filtering function
                     editable=True,  # allow editing in the table
-                    row_deletable=True,  # deleting of rows
                     sort_by=[]),
                 dcc.Graph(id='fig3_6',figure={}),
 
@@ -2544,7 +2540,7 @@ def render_page_content(pathname):
                           } for i in df4_1.columns],
                 data=df4_1.to_dict('records'),  # design of the table
                 page_current=0,
-                page_size=20,
+                page_size=10,
                 page_action='native',
                 sort_action='native',
                 column_selectable="single",
@@ -2563,9 +2559,7 @@ def render_page_content(pathname):
                 merge_duplicate_headers=True,
                 filter_action='native',  # filtering function
                 editable=True,  # allow editing in the table
-                row_deletable=True,  # deleting of rows
                 sort_by=[]),
-
                 dcc.Graph(id='fig4_1',figure={}),
 
 
@@ -2604,7 +2598,6 @@ def render_page_content(pathname):
                 merge_duplicate_headers=True,
                 filter_action='native',  # filtering function
                 editable=True,  # allow editing in the table
-                row_deletable=True,  # deleting of rows
                 sort_by=[]),
                 dcc.Graph(id='fig4_4',figure={}),
     ])
@@ -2613,7 +2606,6 @@ def render_page_content(pathname):
     elif pathname == "/ENR4_5":
         return html.P(html.Div(children=[html.Div([
           html.H1("AERONAUTICAL GROUND LIGHTS - ENROUTE", style={'text-align': 'center','fontSize': 30}),
-
             dash_table.DataTable(
                 id='table4_5',
                 columns=[{"name": i, "id": i,
@@ -2642,7 +2634,6 @@ def render_page_content(pathname):
                 merge_duplicate_headers=True,
                 filter_action='native',  # filtering function
                 editable=True,  # allow editing in the table
-                row_deletable=True,  # deleting of rows
                 sort_by=[]),
                 dcc.Graph(id='fig4_5',figure={}),
         ])
@@ -2660,7 +2651,7 @@ def render_page_content(pathname):
                           } for i in df5_1.columns],
                 data=df5_1.to_dict('records'),
                 page_current=0,
-                page_size=15,
+                page_size=6,
                 page_action='native',
                 sort_action='native',
                 column_selectable="single",
@@ -2680,7 +2671,6 @@ def render_page_content(pathname):
                 merge_duplicate_headers=True,
                 filter_action='native',  # filtering function
                 editable=True,  # allow editing in the table
-                row_deletable=True,  # deleting of rows
                 sort_by=[]),
             dbc.Row(
                 [
@@ -2747,7 +2737,6 @@ def render_page_content(pathname):
                     merge_duplicate_headers=True,
                     filter_action='native',  # filtering function
                     editable=True,  # allow editing in the table
-                    row_deletable=True,  # deleting of rows
                     sort_by=[]),
                 #html.Button('Add Row', id='editing-rows-button_5_2', n_clicks=0),
                 html.Button('LIGHT AIRCRAFT TRAINING AREA A', id='buttonA', n_clicks=0),
@@ -2760,10 +2749,10 @@ def render_page_content(pathname):
             ])
             ]))
 
-    elif pathname == "/Query1":
+    elif pathname == "/Air_Routes":
         return html.P(
             html.Div(children=[html.Div([
-          html.H1("Query1", style={'text-align': 'center','fontSize': 30}),
+          html.H1("AIR ROUTES QUERY", style={'text-align': 'center','fontSize': 30}),
             dbc.Row(
                 [
                     dbc.Col(dcc.Graph(id="graphQ", figure=figQ1), md=8),
